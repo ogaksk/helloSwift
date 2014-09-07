@@ -695,7 +695,7 @@
                     </customView>
                     <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FHu-9k-adh">
                         <rect key="frame" x="28" y="41" width="714" height="21"/>
-                        <sliderCell key="cell" state="on" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="above" sliderType="linear" id="MiG-Ob-n2O"/>
+                        <sliderCell key="cell" continuous="YES" state="on" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="above" sliderType="linear" id="MiG-Ob-n2O"/>
                         <connections>
                             <action selector="getSliderVal:" target="y1Y-cP-Au5" id="2sS-xu-2wg"/>
                         </connections>
