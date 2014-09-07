@@ -10,11 +10,19 @@ import Cocoa
 
 class AppDelegate: NSObject, NSApplicationDelegate {
                             
-  @IBOutlet weak var window: NSWindow!
+  @IBOutlet var window: NSWindow!
+  @IBOutlet var helloView: HelloView!
+
 
 
   func applicationDidFinishLaunching(aNotification: NSNotification?) {
     // Insert code here to initialize your application
+    helloView = (NSApplication.sharedApplication().delegate as AppDelegate).helloView
+
+  }
+  
+  func applicationShouldTerminateAfterLastWindowClosed(theApplication: NSApplication!) -> Bool {
+    return true
   }
 
   func applicationWillTerminate(aNotification: NSNotification?) {

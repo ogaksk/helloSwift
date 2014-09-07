@@ -12,6 +12,8 @@
 		C56E540019B9BB5D00230397 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56E53FF19B9BB5D00230397 /* Images.xcassets */; };
 		C56E540319B9BB5D00230397 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C56E540119B9BB5D00230397 /* MainMenu.xib */; };
 		C56E540F19B9BB5D00230397 /* helloSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56E540E19B9BB5D00230397 /* helloSwiftTests.swift */; };
+		C56E541919BA090800230397 /* HelloController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56E541819BA090800230397 /* HelloController.swift */; };
+		C56E542219BC921200230397 /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56E542119BC921200230397 /* HelloView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		C56E540819B9BB5D00230397 /* helloSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56E540D19B9BB5D00230397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C56E540E19B9BB5D00230397 /* helloSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloSwiftTests.swift; sourceTree = "<group>"; };
+		C56E541819BA090800230397 /* HelloController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloController.swift; sourceTree = "<group>"; };
+		C56E542119BC921200230397 /* HelloView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				C56E53FF19B9BB5D00230397 /* Images.xcassets */,
 				C56E540119B9BB5D00230397 /* MainMenu.xib */,
 				C56E53F919B9BB5D00230397 /* Supporting Files */,
+				C56E541819BA090800230397 /* HelloController.swift */,
+				C56E542119BC921200230397 /* HelloView.swift */,
 			);
 			path = helloSwift;
 			sourceTree = "<group>";
@@ -209,7 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C56E53FE19B9BB5D00230397 /* AppDelegate.swift in Sources */,
+				C56E542219BC921200230397 /* HelloView.swift in Sources */,
 				C56E53FC19B9BB5D00230397 /* main.swift in Sources */,
+				C56E541919BA090800230397 /* HelloController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +405,7 @@
 				C56E541419B9BB5D00230397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C56E541519B9BB5D00230397 /* Build configuration list for PBXNativeTarget "helloSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +414,7 @@
 				C56E541719B9BB5D00230397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
