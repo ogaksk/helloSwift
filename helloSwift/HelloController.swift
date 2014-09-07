@@ -6,13 +6,21 @@
 //  Copyright (c) 2014年 ogawa. All rights reserved.
 //
 
-import Foundation
+import Cocoa
 
-class Hello {
-  var str = "hello world!"
+class HelloController: NSObject {
+  override init() {
+    super.init()
+
+    updateHelloViewWithAnotherThread()
+  }
+
+  func updateHelloView() {
+    let helloView = (NSApplication.sharedApplication().delegate as AppDelegate).helloView  
+  }
   
-  func sayHello() {
-    println(str)
+  func updateHelloViewWithAnotherThread() {
+  
   }
 }
 

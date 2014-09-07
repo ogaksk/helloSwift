@@ -12,13 +12,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                             
   @IBOutlet var window: NSWindow!
   @IBOutlet var helloView: HelloView!
-
-
+  var helloController: HelloController!
 
   func applicationDidFinishLaunching(aNotification: NSNotification?) {
     // Insert code here to initialize your application
-    helloView = (NSApplication.sharedApplication().delegate as AppDelegate).helloView
-
+    helloController = HelloController()
   }
   
   func applicationShouldTerminateAfterLastWindowClosed(theApplication: NSApplication!) -> Bool {
